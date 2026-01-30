@@ -36,19 +36,3 @@ Uygulamanın temel işlevleri ve ekran görüntüleri aşağıdadır:
 * **Framework:** Flutter
 * **Paketler:** `fluttertoast`, `flutter/services`
 
-##  Kurulum
-
-Projeyi bilgisayarınıza indirmek ve çalıştırmak için terminale şu kodları yazın:
-
-```bash
-# 1. Depoyu klonlayın
-git clone [https://github.com/Ranaey9/Color_Picker.git](https://github.com/Ranaey9/Color_Picker.git)
-
-# 2. Proje klasörüne girin
-cd Color_Picker
-
-# 3. Paketleri yükleyin
-flutter pub get
-
-# 4. Uygulamayı çalıştırın
-flutter run
