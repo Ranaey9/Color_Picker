@@ -1,6 +1,6 @@
 # 🎨 Color Picker
 
-Tasarımcılar ve geliştiriciler için hazırlanan bu çoklu platform (Cross-platform) **Flutter** uygulaması, kullanıcıların renk paletlerini keşfetmesine, rastgele tonlar üretmesine ve **Hex kodlarını anında kopyalamasına** olanak tanır.
+Tasarımcılar ve geliştiriciler için hazırlanan **Flutter** uygulaması, kullanıcıların renk paletlerini keşfetmesine, rastgele tonlar üretmesine ve **Hex kodlarını anında kopyalamasına** olanak tanır.
 
 **iOS, Android ve Web** üzerinde sorunsuz çalışır.
 
@@ -22,7 +22,7 @@ Uygulamanın temel işlevleri ve ekran görüntüleri aşağıdadır:
 
 ---
 
-## ✨ Temel Özellikler
+## Temel Özellikler
 
 * **Anında Kopyalama:** Beğendiğiniz rengin Hex kodunu tek tıkla panoya (Clipboard) kopyalar.
 * **Rastgele Üretici:** "Random" butonu ile sürpriz renk kombinasyonları keşfedin.
@@ -30,13 +30,13 @@ Uygulamanın temel işlevleri ve ekran görüntüleri aşağıdadır:
 * **Dinamik Tema:** Uygulama çubuğu ve arka plan, seçilen rengin tonuna göre otomatik olarak değişir.
 * **Görünürlük Kontrolü:** Daha sade bir arayüz için renk isimlerini gizleyip açabilme özelliği.
 
-## 🛠 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 * **Dil:** Dart
 * **Framework:** Flutter
 * **Paketler:** `fluttertoast`, `flutter/services`
 
-## 🚀 Kurulum
+##  Kurulum
 
 Projeyi bilgisayarınıza indirmek ve çalıştırmak için terminale şu kodları yazın:
 
