@@ -15,10 +15,10 @@ Uygulamanın temel işlevleri ve ekran görüntüleri aşağıdadır:
 
 <br>
 
-| **3. Temiz Mod (İsim Gizli)** | **4. Bilgi Modu (İsim Açık)** |
+| **3. Temiz Mod (İsmi Gizle)** | **4. Bilgi Modu (İsmi Göster)** |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/e7ece633-2807-4cf1-afe9-4a211fb72d52" width="250"> | <img src="https://github.com/user-attachments/assets/0368eb5b-78f4-4043-8d96-c1788b0740ad" width="250"> |
-| **Odaklanma:** Bilgi (i) ikonuna tıklayarak yazı etiketini gizleyebilirsiniz. Bu özellik, dikkatinizi dağıtan yazıları kaldırıp sadece renk tonuna odaklanmanızı sağlar. | **Tanımlama:** Etiketi tekrar açarak seçilen rengin tam Flutter ismini (örn: Deep Purple Accent) görebilir ve seçiminizi doğrulayabilirsiniz. |
+| **Odaklanma:** Bilgi (i) ikonuna tıkladığınızda **renk ismi ekrandan kaybolur**. Bu sayede dikkatiniz dağılmadan sadece renk tonuna odaklanabilirsiniz. | **Görünür Yapma:** Gizlediğiniz ismi **tekrar görmek için** butona tekrar tıklamanız yeterlidir. Böylece rengin tam adını (örn: Deep Purple) doğrulayabilirsiniz. |
 
 ---
 
