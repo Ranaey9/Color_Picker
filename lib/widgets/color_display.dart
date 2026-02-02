@@ -12,19 +12,20 @@ class ColorDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final deviceSize =MediaQuery.of(context).size.width;
+    final deviceSize = MediaQuery.of(context).size.width;
     debugPrint(deviceSize.toString());
 
-    final containerSize=deviceSize*0.8;
+    final containerSize = deviceSize * 0.8;
     debugPrint(containerSize.toString());
 
-    return Container(
-      width: containerSize,  
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 500), 
+      curve: Curves.easeInOut, 
+      width: containerSize,
       height: containerSize,
       decoration: BoxDecoration(
           color: _selectedColor,
-          // Şekil ayarı burada yapılıyor
-          borderRadius: BorderRadius.circular(isCircle ? containerSize/2 : 10),
+          borderRadius: BorderRadius.circular(isCircle ? containerSize / 2 : 10),
           boxShadow: [
             BoxShadow(
               color: _selectedColor.withOpacity(0.5),
